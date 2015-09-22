@@ -1,0 +1,60 @@
+html {
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+}
+body {
+    width: 1000px;
+    height: 700px;
+}
+.wrapper {
+    overflow:auto;
+}
+#leftsidebar {width:200px;float:left}
+#menulist {margin:10px;padding:10px;}
+.menuitem {
+  background:#CDF0F6;
+  border-radius:4px;
+  list-style-type:none;
+    padding: 20px;
+    margin: 20px;
+    
+}
+.vehicles {
+    border-collapse: collapse;
+    border-radius: 25px;
+}
+table, td, th {
+    border: 1px solid green;
+    font-size: 15px;
+}
+th {
+    background-color: #003D00;
+    color: #CC0000;
+    font-size: 20px;
+}
+
+table {
+    border-collapse: collapse;
+
+}
+.data-row td, .header-row th {
+    padding:12px;
+}
+.data-row.even {
+    background-color: #A3CC52;
+}
+.data-row.odd {
+    background-color: #BFDB86;
+
+}
+
+/*.table-row td {
+    border: none 0;
+
+}
+.header-row th {
+    border: none 0;
+    border-bottom: 1px solid #eee;
+    background-color: #fff;
+    font-size: 18px;
+}
